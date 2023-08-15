@@ -30,7 +30,6 @@ document.getElementById("withdrow").addEventListener("click", function(){
 
     withdrowInput.value = '';
 
-const num = 0;
 
 
 
