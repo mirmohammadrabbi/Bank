@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="./tailwind.css"></script>
+</head>
+<body>
+<div class="container"> 
+    <div class="head text-center text-4xl mt-5 text-red-500">
+<h2>বাংলাদেশ বাপের ব্যাংক....</h2>
+
+    </div>
+    <div class="card w-9/12 mx-auto text-lg border-2 bg-cyan-600 mt-6 p-9 rounded-lg">
+        <div class="row grid grid-cols-3 content-center items-center gap-6 ">
+
+           <div class="col rounded-lg border-red-300 bg-red-500 p-9 text-white text-2xl">
+            <h1 class="font-extrabold">Deposit</h1>
+            <h1 class="font-extrabold">$<span id="diposit-number">00</span></h1>
+           </div>
+
+           <div class="col rounded-lg border-green-500 bg-sky-900 p-9 text-2xl text-white">
+            <h1 class="font-extrabold">Withdraw</h1>
+            <h1 class="font-extrabold">$ <span id="withdrowValu" >00</span></h1>
+           </div>
+
+           <div class="col rounded-lg border-green-500 bg-green-500 p-9 text-2xl text-white">
+              <h1 class="font-extrabold">Balance</h1>
+            <h1 class="font-extrabold">$ <span id="balance">100</span></h1>
+           </div>
+        </div>
+
+        <div class="row grid grid-cols-2 gap-6 mt-10">
+            <div class="col bg-blue-700 rounded-md p-6 ">
+                <span class="text-white">Please Diposit</span>
+                <input id="input-depo" type="text" class="rounded-md block px-3 p-3 w-10/12" placeholder="$ Please Diposit your Amount">
+                <button id="dpo-btn" class="bg-amber-400 px-4 py-2 mt-2 hover:bg-gray-900 rounded-md text-white" >Diposit</button>
+            </div>
+
+
+            <div class="col bg-blue-400 rounded-md p-6">
+                <span class="text-white">Please Withdrow</span>
+                <input id="withdrow-input" type="text" class=" w-10/12 rounded-md block px-3 p-3 " placeholder="$ Please Withdrow your Amount">
+                <button id="withdrow" class="bg-amber-400 px-4 py-2 mt-2 hover:bg-gray-900 rounded-md text-white">Withdrow</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script>
+
+
+
+
+       
+
+    </script>
+
+<script src="./deposit.js"></script>
+<script src="./withdrow.js"></script>
+</body>
+</html>
